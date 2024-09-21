@@ -51,14 +51,14 @@ function classObj(type, endpoint) {
 
 // data = JSON.stringify(data)
 
-function whoami() {
-	var obj = {method:'GET'};
-	obj['url'] = '/d2l/api/lp/1.43/users/whoami';
-	obj['success'] = function(response) {
-		myID = response['Identifier'];
-		return;
-	};
+// function whoami() {
+// 	var obj = {method:'GET'};
+// 	obj['url'] = '/d2l/api/lp/1.43/users/whoami';
+// 	obj['success'] = function(response) {
+// 		myID = response['Identifier'];
+// 		return;
+// 	};
 
-	$.ajax(obj);
-	return;
-};
+// 	$.ajax(obj);
+// 	return;
+// };
