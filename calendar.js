@@ -11,14 +11,14 @@ $(document).on('click', '[nav]', function() {
 	let year = pos[1];
 	switch ($(this).attr('nav')) {
 		case 'prev' :
-			month--
+			month--;
 			if (month < 0) {
 				month = 11;
 				year--;
 			}
 			break;
 		case 'next' :
-			month++
+			month++;
 			if (month > 11) {
 				month = 0;
 				year++;
